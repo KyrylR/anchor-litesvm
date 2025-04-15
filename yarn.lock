@@ -2159,13 +2159,44 @@ lines-and-columns@^1.1.6:
   resolved "https://registry.yarnpkg.com/lines-and-columns/-/lines-and-columns-1.2.4.tgz#eca284f75d2965079309dc0ad9255abb2ebc1632"
   integrity sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==
 
-litesvm-with-snapshot@0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/litesvm-with-snapshot/-/litesvm-with-snapshot-0.3.0.tgz#93418e68dd622ceff15f12dc0b22782133b6fca1"
-  integrity sha512-KM1AKe4GAaa8OV3Ll/sTlTJll+IS7RmWcZ0uUTwlQD9CsZTW4+i133SNVbiEO2/tYQTYUPsJPdbHm+EcTW18+g==
+litesvm-with-snapshot-darwin-arm64@0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/litesvm-with-snapshot-darwin-arm64/-/litesvm-with-snapshot-darwin-arm64-0.3.1.tgz#b37bb68987f6c36c4f358a6604a48678d9bbf19f"
+  integrity sha512-/JsKlTMKam9g2gVLykbbP41YB4SEX+7ezxRjH3X+9rUsiog2Aw8zK6AcuV4FNzno5bebag0fJYJoTtmTg+k34w==
+
+litesvm-with-snapshot-darwin-universal@0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/litesvm-with-snapshot-darwin-universal/-/litesvm-with-snapshot-darwin-universal-0.3.1.tgz#60df182f26e342e4d249113f1b6ab4025d6ef846"
+  integrity sha512-owbM4LV/b9ZbCwVo9YPwVXVZBMUmwXu0d6z5jQkWXg4iXRupVe839fyNsJVUjxZCVptGZnjyJ8O/47DwkmntbA==
+
+litesvm-with-snapshot-darwin-x64@0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/litesvm-with-snapshot-darwin-x64/-/litesvm-with-snapshot-darwin-x64-0.3.1.tgz#d4df2c2248eaf6c6775dbcee67dcb51f144bfcf6"
+  integrity sha512-7bA+Y+4a9bS41RWZZgSmp9qRrXtBwuswPSP23+CAfgYj38t8mSIYRfypZeZ4SIElnBQgWWhepgcLz5Ebw0kh9Q==
+
+litesvm-with-snapshot-linux-x64-gnu@0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/litesvm-with-snapshot-linux-x64-gnu/-/litesvm-with-snapshot-linux-x64-gnu-0.3.1.tgz#e72c6efa22e11f05fda04b082da25e9417c9132c"
+  integrity sha512-8O+IAt5cyo3S8NnMbRCywFK36Y6w8iVsSE72JrpAIVucAN+n72fZGCgfg/+O6MQs8I0VEKmdX80NUB4S7pphKQ==
+
+litesvm-with-snapshot-linux-x64-musl@0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/litesvm-with-snapshot-linux-x64-musl/-/litesvm-with-snapshot-linux-x64-musl-0.3.1.tgz#bcaf5abc63057d59b69e673e5a518a92d48fbae9"
+  integrity sha512-pauleIcNAipJeXDiDVeGtniTdJ1D7vyMAtxsNN3NDWr5AU3+nhf5I/5Zq0vgDT6iCN14HPQm/Qn8AvYxEjUBRw==
+
+litesvm-with-snapshot@0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/litesvm-with-snapshot/-/litesvm-with-snapshot-0.3.1.tgz#027e5ba27bab0ebaa6f1be1e5d91f1c9fe237c65"
+  integrity sha512-+zcmdhBIA4GhBex7FPPlT7IVMTP4zkQAPx6Y2pntsV0ATQPXhlXXSOiJQXDuG+LsTVEg+iGcDZQWYyj74qUoAg==
   dependencies:
     "@solana/web3.js" "^1.68.0"
     bs58 "^4.0.1"
+  optionalDependencies:
+    litesvm-with-snapshot-darwin-arm64 "0.3.1"
+    litesvm-with-snapshot-darwin-universal "0.3.1"
+    litesvm-with-snapshot-darwin-x64 "0.3.1"
+    litesvm-with-snapshot-linux-x64-gnu "0.3.1"
+    litesvm-with-snapshot-linux-x64-musl "0.3.1"
 
 locate-path@^5.0.0:
   version "5.0.0"
