@@ -16,7 +16,7 @@ import {
 	LAMPORTS_PER_SOL,
 } from "@solana/web3.js";
 import { Provider, Wallet } from "@coral-xyz/anchor";
-import { FailedTransactionMetadata, LiteSVM } from "litesvm";
+import { FailedTransactionMetadata, LiteSVM } from "litesvm-with-snapshot";
 import bs58 from "bs58";
 import { SuccessfulTxSimulationResponse } from "@coral-xyz/anchor/dist/cjs/utils/rpc";
 import * as path from "path";
